@@ -1,0 +1,26 @@
+[package]
+name = "blink"
+version = "0.1.0"
+authors = ["Ghassen"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.cast]
+version = "0.2.2"
+default-features = false
+
+[dependencies.stm32f429i-disc]
+version = "0.2.0"
+
+[dependencies.embedded-hal]
+version = "0.2.1"
+
+[dependencies.cortex-m]
+version = "0.5.7"
+
+[dependencies.cortex-m-rt]
+version = "0.6.4"
+
+[dependencies.panic-abort]
+version = "0.3.1"
